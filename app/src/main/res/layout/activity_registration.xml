@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mozio.todd.MainActivity">
+
+    <!-- Registration Button -->
+    <TextView android:text="@string/register_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/standard_button_height"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/colorWhite"
+        android:onClick="onRegister"
+        android:gravity="center"
+        android:textSize="@dimen/regular_font_size"
+        android:background="@color/colorPrimary"/>
+
+    <LinearLayout android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- First Name -->
+        <EditText android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:maxLines="1"
+            android:inputType="text"
+            android:id="@+id/first_name_edit_text"
+            android:hint="@string/first_name_hint"/>
+
+        <!-- Last Name -->
+        <EditText android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:maxLines="1"
+            android:inputType="text"
+            android:id="@+id/last_name_edit_text"
+            android:hint="@string/last_name_hint"/>
+
+        <!-- Birthday -->
+        <EditText android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:inputType="text"
+            android:focusable="false"
+            android:clickable="false"
+            android:onClick="onBirthdaySelected"
+            android:id="@+id/birthday_edit_text"
+            android:hint="@string/birthday_hint"/>
+
+        <!-- Gender -->
+        <RadioGroup
+            android:id="@+id/gender_radio_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/male_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/male_title"
+                android:checked="true" />
+
+            <RadioButton
+                android:id="@+id/radioFemale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/female_title" />
+
+        </RadioGroup>
+    </LinearLayout>
+</RelativeLayout>

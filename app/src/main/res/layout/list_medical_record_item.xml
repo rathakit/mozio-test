@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <!-- Conclusion -->
+    <TextView android:id="@+id/conclusion_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/regular_font_size" />
+
+    <!-- Drug -->
+    <TextView android:id="@+id/drug_usage_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/regular_font_size" />
+
+    <!-- Migraine -->
+    <TextView android:id="@+id/migraine_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/regular_font_size" />
+
+    <!-- Date & Time -->
+    <TextView android:id="@+id/record_date_time_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:textStyle="italic"
+        android:textSize="@dimen/regular_font_size" />
+
+</LinearLayout>

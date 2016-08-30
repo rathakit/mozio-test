@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">ToddSyndromeAnalyzer</string>
+    <string name="patient_registration_title">Patient Registration</string>
+    <string name="search_hint">Search by Patient ID</string>
+    <string name="find_title">FIND</string>
+    <string name="register_title">Register</string>
+    <string name="first_name_hint">First Name</string>
+    <string name="last_name_hint">Last Name</string>
+    <string name="birthday_hint">Birthday</string>
+    <string name="date_birthday_set_error_message">Sorry, you must set the past date.</string>
+    <string name="first_name_not_set_error_message">Please fill your first name.</string>
+    <string name="last_name_not_set_error_message">Please fill your last name.</string>
+    <string name="birthday_not_set_error_message">Please select your birthday.</string>
+    <string name="register_unsuccessfully_error_message">The patient cannot register.</string>
+    <string name="register_successfully_message">The patient has been registered successfully!</string>
+    <string name="search_patient_unsuccessfully_error_message">The app cannot get the patient\'s details successfully.</string>
+    <string name="patient_id_not_found_message">The patient\'s ID is not found. Please retry again.</string>
+    <string name="gender_title">Gender</string>
+    <string name="male_title">Male</string>
+    <string name="female_title">Female</string>
+    <string name="uppercase_yes_title">YES</string>
+    <string name="uppercase_no_title">NO</string>
+    <string name="patient_details_format_text">Patient: %1$s (Age: %2$d, Gender: %3$s)</string>
+    <string name="hallucinogenic_drug_usage_title">Hallucinogenic Drug Usage</string>
+    <string name="migraine_title">Migraine</string>
+    <string name="diagnose_title">Diagnose</string>
+    <string name="zero_percent_risk_message">Congratulation! That is totally fine - 0%% Risk of Todd\'s Syndrome</string>
+    <string name="n_percent_risk_message">%d%% Risk of Todd\'s Syndrome</string>
+    <string name="drug_usage_format_text">Hallucinogenic Drug Usage: %s</string>
+    <string name="migraine_format_text">Migraine Included: %s</string>
+</resources>
