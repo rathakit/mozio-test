@@ -3,6 +3,7 @@
 Rathakit's Note # 31 August 2016
 =============================================
 ●  Alice is the Android library created and included in the App.
+
 ●  Please feel free to check it out and to drop me any suggestion. 
 Enjoy!
 ---------------------------------------------
