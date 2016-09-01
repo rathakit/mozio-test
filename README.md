@@ -2,6 +2,15 @@
 =============================================
 Rathakit's Note # 31 August 2016
 =============================================
+●  HOW TO CHECKOUT THE PROJECT
+
+1).  VCS > Checkout from Version Control
+- Git Respository URL: https://github.com/rathakit/mozio-test.git
+- Parent Directory: Specific the parent directory.
+- Directory Name: Specific the directory name - Default: mozio-test
+
+2). CLONE IT!
+
 ●  Alice is the Android library created and included in the App.
 
 ●  Please feel free to check it out and to drop me any suggestion. 
