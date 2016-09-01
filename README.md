@@ -1,4 +1,12 @@
 # mozio-test
+=============================================
+Rathakit's Note # 31 August 2016
+=============================================
+●  Alice is the Android library created and included in the App.
+
+●  Please feel free to check it out and to drop me any suggestion. 
+Enjoy!
+---------------------------------------------
 Task:
 You’ve been hired to write an app that will help doctors identify how likely it is that a person has a neurological condition called Todd’s Syndrome. Use the following information to determine the likelihood: (note: although this is a real syndrome, these are just for this test and not based on real data)
 
@@ -29,6 +37,7 @@ Bonus Points if...
 ●  You use transitions/animations
 
 ● Impress us: how would you switch from locally storing data to a REST API–what would that API look like? 
+
 POST -> /register
 Body
 {
