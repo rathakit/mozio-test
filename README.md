@@ -6,8 +6,8 @@ Rathakit's Note # 31 August 2016
 
 1).  VCS > Checkout from Version Control
 - Git Respository URL: https://github.com/rathakit/mozio-test.git
-- Parent Directory: Specific the parent directory.
-- Directory Name: Specific the directory name - Default: mozio-test
+- Parent Directory: Specify the parent directory.
+- Directory Name: Specify the directory name - Default: mozio-test
 
 2). CLONE IT!
 
